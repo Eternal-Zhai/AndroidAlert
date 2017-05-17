@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="alert_default_normal_text">Alert</string>
+    <string name="alert_default_loading_text">加载中···</string>
+    <string name="alert_default_success_text">操作成功</string>
+    <string name="alert_default_failure_text">操作失败</string>
+    <string name="alert_default_error_text">操作错误</string>
+    <string name="alert_default_warning_text">确认操作？</string>
+
+    <string name="alert_left_btn_text">　取　消　</string>
+    <string name="alert_middle_btn_text">　关　闭　</string>
+    <string name="alert_right_btn_text">　确　定　</string>
+
+</resources>
