@@ -147,7 +147,7 @@ public class ThirdPartyPackageAlertWrapper extends AbstractAlertWrapper<SweetAle
         mOriginalAlert.setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {
             @Override
             public void onClick(SweetAlertDialog sweetAlertDialog) {
-                if (null == rightBtnClick)
+                if (null != rightBtnClick)
                     rightBtnClick.onClick(mBaseAlert, BTN_RIGHT);
                 else
                     dismiss();

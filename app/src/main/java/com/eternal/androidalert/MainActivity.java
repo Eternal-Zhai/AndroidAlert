@@ -21,13 +21,13 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 Alert.create(MainActivity.this, Alert.PROGRESS_TYPE).leftBtn(null, new Alert.OnClick<Alert>() {
                     @Override
                     public void onClick(Alert alert, int which) {
                         alert.dismiss();
                     }
                 }).show();
-
 
             }
         });
